@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_weight="0"
+      android:background="@drawable/background"
+      android:orientation="vertical"
+      android:weightSum="3"
+      android:gravity="center"
+      >     
+<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="30dip"
+      android:background="#000000FF"
+      android:layout_weight="1"
+      android:orientation="horizontal"
+      android:gravity="center"
+      >  
+<ProgressBar 
+  android:id="@+id/progress"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:indeterminateDrawable="@drawable/progress"
+/>
+<TextView android:id="@+id/type_text_view"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Loading...."
+           android:textSize="16sp"
+           android:textStyle="bold"
+           android:paddingLeft="10dip"/>
+
+</LinearLayout>
+<ImageView android:id="@+id/ImageView01" android:layout_weight="1" android:layout_width="wrap_content" android:paddingTop="20dip" android:layout_height="wrap_content" android:src="@drawable/icon"></ImageView>
+<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="30dip"
+      android:background="#000000FF"
+      android:layout_weight="1"
+      android:orientation="horizontal"
+      android:gravity="center"
+      >  
+      <TextView android:id="@+id/type_text_view"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="All images copyright of owners."
+           android:textSize="16sp"
+           android:textStyle="bold"
+           android:paddingLeft="10dip"/>
+</LinearLayout>
+</LinearLayout>

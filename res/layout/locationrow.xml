@@ -1,0 +1,37 @@
+<LinearLayout android:id="@+id/LinearLayout01" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+android:orientation="horizontal"
+android:background="#000000FF"
+android:padding="5dip"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:id="@+id/LinearLayout01" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+android:orientation="vertical"
+android:layout_weight="1"
+android:background="#000000FF">
+<TextView
+android:textColor="#009ACD"
+android:text="building"
+android:id="@+id/building"
+android:textStyle="bold"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"/>
+<TextView
+android:textColor="#000000"
+android:text="location"
+android:id="@+id/location"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"/>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout01" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+android:layout_weight="2"
+android:gravity="right|center_vertical" 
+android:orientation="horizontal"
+android:background="#000000FF">
+<ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@layout/infobutton"></ImageView>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Doors Open</string>
+<string name="google_code">xxxxxxxx</string>
+<string name="TAG">SimplyGoodCaribana</string>
+<string name="DEFAULT_LAT">0</string>
+<string name="DEFAULT_LONG">0</string>
+</resources>
